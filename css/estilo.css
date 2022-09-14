@@ -1,0 +1,26 @@
+.fondo{
+    background: rgb(62,21,87);
+    background: linear-gradient(90deg, rgba(62,21,87,1) 0%, rgba(238,135,184,1) 100%);
+width: auto;
+height: auto;
+}
+
+.login{
+    top: 10vh;
+    position: relative;
+    background-color: whitesmoke;
+    width: 100;
+    border-radius: 40px;
+    height: auto;
+}
+
+.contra{
+    top: 10vh;
+    position: relative;
+    background-color: whitesmoke;
+    width: auto;
+    border-radius: 30px;
+    height: auto;
+}
+
+

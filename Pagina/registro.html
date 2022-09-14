@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="/css/estilo.css">
+
+
+</head>
+<body>
+  <header>
+    <nav class="nav-wrapper">     
+      <a href="./inicio.html"class="brand-logo site-logo"><i class="material-icons">bookmark</i>Alec</a>
+           <ul class="right hide-on-med-and-down">
+                    <li class="site-nav--active active">
+                     <!--  <a href="./inicio.html" class="site-nav__link">Home</a>-->
+                      <a href="./login.html" id="login">Login</a>
+                     </li>
+                     <li>
+                       <a href="./registro.html" id="registro">Registo</a>
+                     </li>
+               </ul>
+             </nav>
+      </header>
+
+      <div class="form-container">
+        <div class="row">
+            <div class="col s12 m12 l12 offset-2 login">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <div class="col s11 offset-s1">
+                            <img src ="/Imagenes/regi.png" class="responsive-img ">
+                        </div>
+                    </div>
+                        <div class="col s12 m5 l5 offset-l1">
+                            <div class="Resgistro">
+                                <h5>Registro</h5>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s10">
+                                <input id="nombre" type="text" class="validate" autocomplete="off">
+                                <label for="icon_prefix">Nombre</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                              <div class="input-field col s10">
+                              <input id="apellido" type="text" class="validate" autocomplete="off">
+                              <label for="icon_prefix">Apellido</label>
+                              </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s10">
+                            <input id="correo" type="text" class="validate" autocomplete="off">
+                            <label for="icon_prefix">Correo</label>
+                            </div>
+                        </div>
+                            <div class="row">
+                                <div class="input-field col s10">
+                                <input id="clave" type="text" class="validate" autocomplete="off">
+                                <label for="icon_prefix">Password</label>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn col l10 s10 m10" type="login" name="action">Registro
+                                <i class="material-icons right">send</i>
+                                </button>
+                                <br>
+                                <div class="col l10 m10 s10 center"><p class="grey-text text-darken-3 lighten-3">Ya esta registrado</p><a href="./login.html">Login</a></div>
+                                </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+      </div>
+
+                   
+</body>
+</html>
